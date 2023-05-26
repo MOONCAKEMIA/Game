@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sad Game: Words?</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Guess the Word</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining guesses: <span></span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
+        </div>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+
+    <script src="js/words.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sad Game, Bad Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>GUESS WORD.</h1>
+    <div class="content">
+      <div class="inputs">
+        <input type="text" id="letter1" maxlength="1" disabled>
+        <input type="text" id="letter2" maxlength="1" disabled>
+        <input type="text" id="letter3" maxlength="1" disabled>
+        <input type="text" id="letter4" maxlength="1" disabled>
+        <input type="text" id="letter5" maxlength="1" disabled>
+        <input type="text" id="letter6" maxlength="1" disabled>
+      </div>
+      <div class="details">
+        <p class="hint">Hint: <span id="hintText">[hint will be shown here]</span></p>
+        <p class="guess-left">Remaining guesses: <span id="guessesLeft">8</span></p>
+        <p class="wrong-letter">Wrong letters: <span id="wrongLetters"></span></p>
+      </div>
+      <div class="buttons">
+        <button class="submit-btn" onclick="checkWord()">SUBMIT</button>
+        <button class="reset-btn" onclick="resetGame()">RESET</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/words.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html> -->
